@@ -11,7 +11,7 @@ Model required
 How to use
 1. Import the workflow to ComfyUI
 2. Make sure you install all missing nodes.
-3. If you have never used ReActor or innswapper128 before, you will need to install manually. (Installing from ComfyUI Manager alone does NOT work.) See more at https://github.com/Gourieff/ComfyUI-ReActor
+3. If you have never used ReActor or innswapper128 before, you will need to install manually. (Installing from ComfyUI Manager alone is NOT sufficient.) See more at https://github.com/Gourieff/ComfyUI-ReActor
 4. Load images of the subject, the face (not required if not a person but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
 5. Mark the area in the destination image that you want your subject to insert.
 6. Insert the Prompt.
