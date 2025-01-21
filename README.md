@@ -13,6 +13,7 @@ How to use
 2. Make sure you install all missing nodes.
 3. If you have never used ReActor or innswapper128 before, you will need to install manually. See more at https://github.com/Gourieff/ComfyUI-ReActor
 4. Load images of the subject, the face (not required if not a person but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
-5. Insert the Prompt.
-6. Click Run.
-7. If you are not satisfied with the result, see the Tips notes in some nodes that I found impactful to the results. You will need to experiment on it. There is no universal setting.
+5. Mark the area in the destination image that you want your subject to insert.
+6. Insert the Prompt.
+7. Click Run.
+8. If you are not satisfied with the result, see the Tips notes in some nodes that I found impactful to the results. You will need to experiment on it. There is no universal setting.
