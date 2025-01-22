@@ -21,8 +21,9 @@ How to Use
 9. After finished installing onnxruntime, go to \ComfyUI\custom_nodes and type CMD in the file directory to open the command prompt. Enter ```git clone https://codeberg.org/Gourieff/comfyui-reactor-node.git``` and let it install.
 10. Voila! you have installed ReActor. Take a moment to breath.
   
-11. Load images of the subject, the face (not required if not a person but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
-12. Mark the area in the destination image that you want your subject to insert.
-13. Type the Prompt.
-14. Click Queue.
-15. If you are not satisfied with the result, see the Tips notes in some nodes that I found impactful to the results. You will need to experiment on it. There is no universal setting.
+11. Now, open the ComfyUI. You can now use the workflow.
+12. To use it, load images of the subject, the face (not required if not a person but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
+13. Mark the area in the destination image that you want your subject to insert.
+14. Type the Prompt.
+15. Click Queue.
+16. If you are not satisfied with the result, see the Tips notes in some nodes that I found impactful to the results. You will need to experiment on it. There is no universal setting.
