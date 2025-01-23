@@ -1,19 +1,25 @@
 ## A Workflow For Transfering Subjects into New Pictures While Retaining Features
 
+LATEST UPDATE: WorkflowV3
 
-![V21](https://github.com/user-attachments/assets/7a1a7d13-a3fb-4eba-b0d5-f10cef76e57e)
+![V3](https://github.com/user-attachments/assets/cfab55df-ba20-4950-828c-fd0f10f50754)
+
+Changelog V3:
+- Fixed some issues with LayerColor: Brightness & Contrast node. (replaced with another version.)
+- Fixed CropMask node.
+- Added ReActer FaceBooster node.
+- Removed Image Sharpen node. It worsens image quality.
+- Increase context_expand_factor in Inpaint Crop node. More context will be considered in by the models.
 
 ### EXAMPLES
 
 ![EX1](https://github.com/user-attachments/assets/27167947-af92-4082-912f-5a83c7a8c946)
 ![EX2](https://github.com/user-attachments/assets/59df0f22-c69f-4fae-bf64-699d15ab7ebc)
 ![EX3](https://github.com/user-attachments/assets/a36b648a-b646-483b-a8cf-8738de266e0b)
+
 ![EX4](https://github.com/user-attachments/assets/2a8c6a97-729a-4764-9c04-b8636ce9a7eb)
 ![EX5](https://github.com/user-attachments/assets/e9b1fa15-289c-4452-b5c1-94163ef370a8)
-
-
-
-
+![V21](https://github.com/user-attachments/assets/7a1a7d13-a3fb-4eba-b0d5-f10cef76e57e)
 
 
 
