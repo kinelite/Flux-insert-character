@@ -16,7 +16,6 @@ Changelog V3:
 ![EX1](https://github.com/user-attachments/assets/27167947-af92-4082-912f-5a83c7a8c946)
 ![EX2](https://github.com/user-attachments/assets/59df0f22-c69f-4fae-bf64-699d15ab7ebc)
 ![EX3](https://github.com/user-attachments/assets/a36b648a-b646-483b-a8cf-8738de266e0b)
-
 ![EX4](https://github.com/user-attachments/assets/2a8c6a97-729a-4764-9c04-b8636ce9a7eb)
 ![EX5](https://github.com/user-attachments/assets/e9b1fa15-289c-4452-b5c1-94163ef370a8)
 ![V21](https://github.com/user-attachments/assets/7a1a7d13-a3fb-4eba-b0d5-f10cef76e57e)
@@ -36,7 +35,7 @@ How to Use
 4. Go to ComfyUI Manager, click uninstall or disable ReActor from the manager. (This one implements nsfw detector forced by Github and it causes technical problems to several people.)
 5. Go to https://codeberg.org/Gourieff/comfyui-reactor-node, scroll down for the Troubleshooting (I) section, follows its instruction RELIGIOUSLY.
 6. After installing insightface-0.7.3-cp31X-cp31X-win_amd64.whl (X is your python version), download inswapper_128.onnx from https://huggingface.co/ezioruan/inswapper_128.onnx/tree/main and put it into the folder \ComfyUI\models\insightface (If you don't have one, just create a new folder and rename it to that.)
-7. Go to the folder \ComfyUI\models\facerestore_models (create one if you don't have.) and check if you have GFPGANv1.4.onnx there. If you don't have one, you can download from  https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models/facerestore_models
+7. Go to the folder \ComfyUI\models\facerestore_models (create one if you don't have.) and check if you have GFPGANv1.4.onnx and GPEN-BFR-512.onnx there. If you don't have one, you can download from  https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models/facerestore_models
 8. Go to the folder \ComfyUI_windows_portable\python_embeded and type CMD in the directory to open command prompt, then type ```python.exe -m pip install onnxruntime```
 9. After finished installing onnxruntime, go to \ComfyUI\custom_nodes and type CMD in the file directory to open the command prompt. Enter ```git clone https://codeberg.org/Gourieff/comfyui-reactor-node.git``` and let it install.
 10. Voila! you have installed ReActor. Take a moment to breath.
