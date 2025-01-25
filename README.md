@@ -3,7 +3,6 @@
 ### LATEST UPDATE: WorkflowV4
 
 ### Changelog V4:
-
 ![V4](https://github.com/user-attachments/assets/dd21c26b-8c06-496e-8cba-6626b9132f56)
 
 - Overhaul the whole workflow logic. Now, it will adhere to the prompt more.
@@ -12,7 +11,6 @@
 - Change default Inpaint Crop and Inpaint Stitch rescale algorithm to bicubic and bislerp, respectively.
 
 ### Changelog V3:
-
 ![V3](https://github.com/user-attachments/assets/cfab55df-ba20-4950-828c-fd0f10f50754)
 - Fixed some issues with LayerColor: Brightness & Contrast node. (replaced with another version.)
 - Fixed CropMask node.
@@ -21,7 +19,6 @@
 - Increase context_expand_factor in Inpaint Crop node. More context will be considered in by the models.
 
 ### EXAMPLES
-
 ![EX1](https://github.com/user-attachments/assets/27167947-af92-4082-912f-5a83c7a8c946)
 ![EX2](https://github.com/user-attachments/assets/59df0f22-c69f-4fae-bf64-699d15ab7ebc)
 ![EX3](https://github.com/user-attachments/assets/a36b648a-b646-483b-a8cf-8738de266e0b)
