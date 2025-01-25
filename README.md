@@ -29,10 +29,11 @@ A ComfyUI workflow for inserting a subject (character or stuff) into a new pictu
 
 
 
-Model required
+Models required
 - Flux1-fill-dev
 - Flux1-redux-dev
-- InsightFace (innswapper128) and ReActor.
+- InsightFace (inswapper_128) and ReActor.
+- SDXL Jugglenaut XL (for V4)
 
 How to Use
 1. Import the workflow to ComfyUI
