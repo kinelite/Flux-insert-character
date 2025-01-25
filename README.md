@@ -1,10 +1,19 @@
 ## A Workflow For Transfering Subjects into New Pictures While Retaining Features
 
-LATEST UPDATE: WorkflowV3
+### LATEST UPDATE: WorkflowV4
+
+### Changelog V4:
+
+![V4](https://github.com/user-attachments/assets/dd21c26b-8c06-496e-8cba-6626b9132f56)
+
+- Overhaul the whole workflow logic. Now, it will adhere to the prompt more.
+- Add Upscaler Unit to heal pixelating effect. Require SDXL 1.0 (Jugglenaut XI) (https://civitai.com/models/133005/juggernaut-xl)
+- Require upscaler model 4x_NMKD-Siax_200k.pth (can be download from ComfyUI Manager in download model section.)
+- Change default Inpaint Crop and Inpaint Stitch rescale algorithm to bicubic and bislerp, respectively.
+
+### Changelog V3:
 
 ![V3](https://github.com/user-attachments/assets/cfab55df-ba20-4950-828c-fd0f10f50754)
-
-Changelog V3:
 - Fixed some issues with LayerColor: Brightness & Contrast node. (replaced with another version.)
 - Fixed CropMask node.
 - Added ReActer FaceBooster node.
