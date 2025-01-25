@@ -1,4 +1,5 @@
-## A Workflow For Transfering Subjects into New Pictures While Retaining Features
+## Flux Insert Character
+A ComfyUI workflow for inserting a subject (character or stuff) into a new pictures while retaining its feature. It will automatically adapt perspective, light and color tones, and can even change posture according to text prompt. Scroll down for examples.
 
 ### LATEST UPDATE: WorkflowV4
 
