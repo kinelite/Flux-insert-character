@@ -5,7 +5,7 @@ A ComfyUI workflow for inserting a subject (character or stuff) into a new pictu
 ![V5](https://github.com/user-attachments/assets/54acb11e-afed-4cfa-b9a4-8e3886da6ef6)
 
 - Switch the Inpaint Stitch node and the Face Swap Unit, so the face swap model is less confused after stitching.
-- Remove dependency on SDXL in the Upscaler Unit. Much better image fidelity and less RAM required, but longer render time.
+- Remove dependency on SDXL in the Upscaler Unit. Much better image fidelity and less RAM required, but longer render time if enabled. (Disabled by default.)
 
 ### Changelog V4:
 ![V4](https://github.com/user-attachments/assets/dd21c26b-8c06-496e-8cba-6626b9132f56)
