@@ -1,7 +1,7 @@
 ## Flux Insert Character
 A ComfyUI workflow for inserting a subject (character or stuff) into a new pictures while retaining its feature. It will automatically adapt perspective, light and color tones, and can even change posture according to text prompt. Scroll down for examples.
 
-### LATEST UPDATE: WorkflowV5 (renamed to Flux-Insert-Character-V5 to avoid confusion.)
+### LATEST UPDATE: Flux-Insert-Character-V5 (renamed from WorkflowV5 to avoid confusion.)
 ![V5](https://github.com/user-attachments/assets/54acb11e-afed-4cfa-b9a4-8e3886da6ef6)
 
 - Switch the Inpaint Stitch node and the Face Swap Unit, so the face swap model is less confused after stitching.
