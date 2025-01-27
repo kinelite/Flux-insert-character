@@ -38,7 +38,7 @@ Models required
 - Flux1-redux-dev
 - InsightFace (inswapper_128) and ReActor.
   
-How to Use
+How to Start
 1. Import the workflow to ComfyUI
 2. Make sure you install all missing nodes.
 3. If you have never used ReActor before, you will need to install it manually. (Installing from ComfyUI Manager alone is NOT sufficient.) If you already got ReActor working before, you can skip to step 11.
@@ -54,6 +54,8 @@ How to Use
 11. Now, open the ComfyUI. You can now use the workflow.
 12. To use it, load images of the subject, the face (not required if not a person but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
 13. Mark the area in the destination image that you want your subject to insert.
-14. Type the Prompt.
-15. Click Queue.
-16. If you are not satisfied with the result, see the Tips notes in some nodes that I found impactful to the results. You will need to experiment on it. There is no universal setting.
+15. Type the Prompt.
+16. A ready-to-run input should look like this:
+    ![Screenshot 2025-01-27 180150](https://github.com/user-attachments/assets/8bfe6761-e216-41c6-91fb-1d1e634af64b)
+18. Click Queue.
+19. If you are not satisfied with the result, see the Tips notes in some nodes that I found impactful to the results. You will need to experiment on it. There is no universal setting.
