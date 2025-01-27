@@ -1,7 +1,11 @@
 ## Flux Insert Character
 A ComfyUI workflow for inserting a subject (character or stuff) into a new pictures while retaining its feature. It will automatically adapt perspective, light and color tones, and can even change posture according to text prompt. Scroll down for examples.
 
-### LATEST UPDATE: WorkflowV4
+### LATEST UPDATE: WorkflowV5
+![V5](https://github.com/user-attachments/assets/54acb11e-afed-4cfa-b9a4-8e3886da6ef6)
+
+- Switch the Inpaint Stitch node and the Face Swap Unit, so the face swap model is less confused after stitching.
+- Remove dependency on SDXL in the Upscaler Unit. Much better image fidelity and less RAM required, but longer render time.
 
 ### Changelog V4:
 ![V4](https://github.com/user-attachments/assets/dd21c26b-8c06-496e-8cba-6626b9132f56)
@@ -33,7 +37,7 @@ Models required
 - Flux1-fill-dev
 - Flux1-redux-dev
 - InsightFace (inswapper_128) and ReActor.
-- SDXL Jugglenaut XL (for V4. Can use other models, but I find SDXL very efficient.)
+- SDXL Jugglenaut XL (Only for V4)
 
 How to Use
 1. Import the workflow to ComfyUI
