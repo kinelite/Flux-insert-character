@@ -37,8 +37,7 @@ Models required
 - Flux1-fill-dev
 - Flux1-redux-dev
 - InsightFace (inswapper_128) and ReActor.
-- SDXL Jugglenaut XL (Only for V4)
-
+  
 How to Use
 1. Import the workflow to ComfyUI
 2. Make sure you install all missing nodes.
