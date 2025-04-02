@@ -42,7 +42,7 @@ Models required
   
 How to Start
 1. Import the workflow to ComfyUI
-2. Make sure you install all missing nodes, EXCEPT ComfyUI-NeuralMedia, which is not a part of the workflow but would show up on the ComfyUI Manager.
+2. Make sure you install all missing nodes, EXCEPT ComfyUI-NeuralMedia, which is NOT a part of the workflow but would show up on the ComfyUI Manager anyway.
 3. If you have never used ReActor before, you will need to install it manually. (Installing from ComfyUI Manager alone is NOT sufficient.) If you already got ReActor working before, you can skip to step 11.
 
 4. If you installed ReActor incorrectly, go to ComfyUI Manager, click Uninstall, or disable ReActor from the manager. (This one implements nsfw detector forced by GitHub, and it causes technical problems to several people.)
