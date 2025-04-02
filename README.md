@@ -45,16 +45,16 @@ How to Start
 2. Make sure you install all missing nodes, EXCEPT ComfyUI-NeuralMedia, which is not a part of the workflow but would show up on the ComfyUI Manager.
 3. If you have never used ReActor before, you will need to install it manually. (Installing from ComfyUI Manager alone is NOT sufficient.) If you already got ReActor working before, you can skip to step 11.
 
-4. Go to ComfyUI Manager, click uninstall or disable ReActor from the manager. (This one implements nsfw detector forced by Github and it causes technical problems to several people.)
-5. Go to https://codeberg.org/Gourieff/comfyui-reactor-node, scroll down for the Troubleshooting (I) section, follows its instruction RELIGIOUSLY.
-6. After installing insightface-0.7.3-cp31X-cp31X-win_amd64.whl (X is your python version), download inswapper_128.onnx from https://huggingface.co/ezioruan/inswapper_128.onnx/tree/main and put it into the folder \ComfyUI\models\insightface (If you don't have one, just create a new folder and rename it to that.)
+4. If you installed ReActor incorrectly, go to ComfyUI Manager, click Uninstall, or disable ReActor from the manager. (This one implements nsfw detector forced by GitHub, and it causes technical problems to several people.)
+5. Go to https://codeberg.org/Gourieff/comfyui-reactor-node, scroll down for the Troubleshooting (I) section, follow its instructions RELIGIOUSLY.
+6. After installing insightface-0.7.3-cp31X-cp31X-win_amd64.whl (X is your Python version), download inswapper_128.onnx from https://huggingface.co/ezioruan/inswapper_128.onnx/tree/main and put it into the folder \ComfyUI\models\insightface (If you don't have one, just create a new folder and rename it to that.)
 7. Go to the folder \ComfyUI\models\facerestore_models (create one if you don't have.) and check if you have GFPGANv1.4.onnx and GPEN-BFR-512.onnx there. If you don't have one, you can download from  https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models/facerestore_models
 8. Go to the folder \ComfyUI_windows_portable\python_embeded and type ```cmd``` in the directory to open command prompt, then type ```python.exe -m pip install onnxruntime``` and ```python.exe -m pip install segment-anything-py```
 9. After finished installing onnxruntime, go to \ComfyUI\custom_nodes and type ```cmd``` in the file directory to open the command prompt. Enter ```git clone https://codeberg.org/Gourieff/comfyui-reactor-node.git``` and let it install.
-10. Voila! you have installed ReActor. Take a moment to breath.
+10. Voila! You have installed ReActor. Take a moment to breathe.
   
 11. Now, open the ComfyUI. You can now use the workflow.
-12. To use it, load images of the subject, the face (not required if not a person but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
+12. To use it, load images of the subject, the face (not required if not a person, but you need to click disable Face Swap Unit in the Prompt Card), and the destination.
 13. Mark the area in the destination image that you want your subject to insert.
 15. Type the Prompt.
 16. A ready-to-run input should look like this:
