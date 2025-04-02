@@ -49,7 +49,7 @@ How to Start
 5. Go to https://codeberg.org/Gourieff/comfyui-reactor-node, scroll down for the Troubleshooting (I) section, follows its instruction RELIGIOUSLY.
 6. After installing insightface-0.7.3-cp31X-cp31X-win_amd64.whl (X is your python version), download inswapper_128.onnx from https://huggingface.co/ezioruan/inswapper_128.onnx/tree/main and put it into the folder \ComfyUI\models\insightface (If you don't have one, just create a new folder and rename it to that.)
 7. Go to the folder \ComfyUI\models\facerestore_models (create one if you don't have.) and check if you have GFPGANv1.4.onnx and GPEN-BFR-512.onnx there. If you don't have one, you can download from  https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models/facerestore_models
-8. Go to the folder \ComfyUI_windows_portable\python_embeded and type ```cmd``` in the directory to open command prompt, then type ```python.exe -m pip install onnxruntime```
+8. Go to the folder \ComfyUI_windows_portable\python_embeded and type ```cmd``` in the directory to open command prompt, then type ```python.exe -m pip install onnxruntime``` and ```python.exe -m pip install segment-anything-py```
 9. After finished installing onnxruntime, go to \ComfyUI\custom_nodes and type ```cmd``` in the file directory to open the command prompt. Enter ```git clone https://codeberg.org/Gourieff/comfyui-reactor-node.git``` and let it install.
 10. Voila! you have installed ReActor. Take a moment to breath.
   
